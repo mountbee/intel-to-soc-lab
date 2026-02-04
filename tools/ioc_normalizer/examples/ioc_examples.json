@@ -1,0 +1,98 @@
+[
+  {
+    "type": "ip",
+    "value": "203.0.113.10",
+    "source": "internal-hunt",
+    "first_seen": "2026-01-15T09:10:00Z",
+    "last_seen": "2026-01-15T09:40:00Z",
+    "confidence": 4,
+    "context": "Lonjakan login gagal dari satu IP ke banyak akun.",
+    "tags": ["spraying", "auth"],
+    "reference_ids": ["INC-2026-001"],
+    "pack": "pack01"
+  },
+  {
+    "type": "domain",
+    "value": "login-example.com",
+    "source": "cti-report",
+    "first_seen": "2026-01-20T00:00:00Z",
+    "last_seen": "",
+    "confidence": 3,
+    "context": "Domain mirip halaman login yang digunakan untuk credential harvesting.",
+    "tags": ["phishing", "credential"],
+    "reference_ids": ["REP-CTI-042"],
+    "pack": "pack02"
+  },
+  {
+    "type": "url",
+    "value": "https://example.com/login/reset",
+    "source": "open-source",
+    "first_seen": "",
+    "last_seen": "",
+    "confidence": 2,
+    "context": "URL contoh untuk simulasi uji normalisasi.",
+    "tags": ["testing"],
+    "reference_ids": [],
+    "pack": "pack01"
+  },
+  {
+    "type": "hash_md5",
+    "value": "d41d8cd98f00b204e9800998ecf8427e",
+    "source": "lab-sample",
+    "first_seen": "2026-01-05T12:00:00Z",
+    "last_seen": "2026-01-06T12:00:00Z",
+    "confidence": 3,
+    "context": "Hash dummy untuk validasi format MD5.",
+    "tags": ["malware", "test"],
+    "reference_ids": ["LAB-001"],
+    "pack": "pack02"
+  },
+  {
+    "type": "hash_sha1",
+    "value": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "source": "lab-sample",
+    "first_seen": "2026-01-07T08:00:00Z",
+    "last_seen": "",
+    "confidence": 2,
+    "context": "Hash dummy untuk validasi format SHA1.",
+    "tags": ["hash", "test"],
+    "reference_ids": [],
+    "pack": "pack02"
+  },
+  {
+    "type": "hash_sha256",
+    "value": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "lab-sample",
+    "first_seen": "2026-01-08T10:30:00Z",
+    "last_seen": "2026-01-08T11:00:00Z",
+    "confidence": 4,
+    "context": "Hash dummy untuk validasi format SHA256.",
+    "tags": ["hash", "test"],
+    "reference_ids": ["LAB-002"],
+    "pack": "pack01"
+  },
+  {
+    "type": "email",
+    "value": "user@example.org",
+    "source": "phish-sim",
+    "first_seen": "2026-01-12T09:00:00Z",
+    "last_seen": "2026-01-12T10:00:00Z",
+    "confidence": 3,
+    "context": "Alamat email dummy untuk simulasi target phishing.",
+    "tags": ["phishing", "simulation"],
+    "reference_ids": [],
+    "pack": "pack02"
+  },
+  {
+    "type": "unknown",
+    "value": "sample-indicator-001",
+    "source": "notes",
+    "first_seen": "",
+    "last_seen": "",
+    "confidence": 1,
+    "context": "Placeholder indikator yang belum terklasifikasi.",
+    "tags": ["triage"],
+    "reference_ids": ["NOTE-123"],
+    "pack": "pack01"
+  }
+]
