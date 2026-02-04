@@ -1,0 +1,75 @@
+# Dummy IOC list for pack01 (credential access)
+# Baris ini hanya untuk latihan dan pengujian normalisasi/dedup
+
+203.0.113.10
+198.51.100.22
+192.0.2.5
+203.0.113.77
+198.51.100.44
+192.0.2.19
+203.0.113.88
+198.51.100.90
+192.0.2.33
+203.0.113.120
+
+Example.COM
+login-portal.EXAMPLE.org
+AUTH.EXAMPLE.net
+corp-login.example.com
+hr-portal.Example.ORG
+vpn.EXAMPLE.com
+mail.EXAMPLE.NET
+support.Example.com
+secure-login.EXAMPLE.org
+AUTH.EXAMPLE.net  
+
+http://Example.com/login
+https://AUTH.EXAMPLE.net/portal
+http://login-portal.EXAMPLE.org/auth
+https://corp-login.example.com/reset
+http://HR-PORTAL.example.org/verify
+https://vpn.EXAMPLE.com/sso
+http://mail.example.net/owa
+https://support.Example.com/help?ticket=123
+http://secure-login.EXAMPLE.org/auth
+https://auth.example.net/portal
+
+# Hashes (dummy)
+d41d8cd98f00b204e9800998ecf8427e
+DA39A3EE5E6B4B0D3255BFEF95601890AFD80709
+E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855
+0cc175b9c0f1b6a831c399e269772661
+900150983cd24fb0d6963f7d28e17f72
+c3fcd3d76192e4007dfb496cca67e13b
+D41D8CD98F00B204E9800998ECF8427E
+8f14e45fceea167a5a36dedd4bea2543
+
+# SHA1 dummy
+da39a3ee5e6b4b0d3255bfef95601890afd80709
+b94d27b9934d3e08a52e52d7da7dabfac484efe6
+B94D27B9934D3E08A52E52D7DA7DABFAC484EFE6
+3de8f8b0dc94b8c2230fab9ec0ba0506a2b6f0d1
+f7ff9e8b7bb2b91af11fca61c1f8babe5b97b7a0
+f1d2d2f924e986ac86fdf7b36c94bcdf32beec15
+11f6ad8ec52a2984abaafd7c3b516503785c2072
+1b6453892473a467d07372d45eb05abc2031647a
+
+# SHA256 dummy
+9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae
+9F86D081884C7D659A2FEAA0C55AD015A3BF4F1B2B0B822CD15D6C15B0F00A08
+6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918
+8f3b1a2d2d7d7cce28d8f2e9b2b2c9f3b6f1e9e1c3b4a5d6e7f8090a1b2c3d4e
+
+# Emails dummy
+user@example.org
+Admin@EXAMPLE.com
+soc-analyst@Example.NET
+alerts@example.com
+service.account@EXAMPLE.org
+
+# Duplicates for dedup testing
+  example.com
+ADMIN@example.com
+https://auth.example.net/portal
